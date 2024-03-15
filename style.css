@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  padding: 16px;
+  background-color: #87bdd8;
+  color: white;
+  font-family: Arial;
+}
+canvas {
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -130px;
+}
+
+.header {
+  width: 480px;
+  text-align: left;
+  margin: auto;
+}
+
+.header * {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 16px 24px 0px;
+}
+button {
+  border-radius: 4px;
+  padding: 8px 16px;
+  border: 4px solid #3b3a30;
+  background: white;
+  font-size: 16px;
+  line-height: 1.8rem;
+  margin-right: 8px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.buttons {
+  position: relative;
+  top: 316px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  width: 480px;
+}
+
+.logo {
+  border: 1px solid #3b3a30;
+  background-color: white;
+  border-radius: 5px;
+  width: 30%;
+  height: 30%;
+  margin-right: 2em;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: 'impact';
+  color: #3b3a30;
+}
+
